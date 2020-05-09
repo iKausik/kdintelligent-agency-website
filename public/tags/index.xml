@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Tags on KD &amp; Intelligent</title>
+    <link>/tags/</link>
+    <description>Recent content in Tags on KD &amp; Intelligent</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Sat, 02 May 2020 07:26:22 +0530</lastBuildDate>
+    
+	<atom:link href="/tags/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>business</title>
+      <link>/tags/business/</link>
+      <pubDate>Sat, 02 May 2020 07:26:22 +0530</pubDate>
+      
+      <guid>/tags/business/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>sales funnel</title>
+      <link>/tags/sales-funnel/</link>
+      <pubDate>Sat, 02 May 2020 07:26:22 +0530</pubDate>
+      
+      <guid>/tags/sales-funnel/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>web design</title>
+      <link>/tags/web-design/</link>
+      <pubDate>Sat, 02 May 2020 07:26:22 +0530</pubDate>
+      
+      <guid>/tags/web-design/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>web development</title>
+      <link>/tags/web-development/</link>
+      <pubDate>Sat, 02 May 2020 07:26:22 +0530</pubDate>
+      
+      <guid>/tags/web-development/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>woocommerce</title>
+      <link>/tags/woocommerce/</link>
+      <pubDate>Sat, 11 Apr 2020 11:42:17 +0530</pubDate>
+      
+      <guid>/tags/woocommerce/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>wordpress</title>
+      <link>/tags/wordpress/</link>
+      <pubDate>Sat, 11 Apr 2020 11:42:17 +0530</pubDate>
+      
+      <guid>/tags/wordpress/</guid>
+      <description></description>
+    </item>
+    
+  </channel>
+</rss>

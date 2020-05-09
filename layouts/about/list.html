@@ -1,0 +1,14 @@
+{{ define "main" }}
+
+<section class="section">
+    <div class="container">
+        <div class="about-container">
+            <div class="title is-3">{{ .Page.Title | humanize  }}</div>
+            {{.Content}}
+        </div>
+    </div>
+</section>
+
+{{ partial "contact-partial" . }}
+
+{{ end }}

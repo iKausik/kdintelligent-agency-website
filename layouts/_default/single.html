@@ -1,0 +1,37 @@
+{{ define "main" }}
+
+<section class="section is-paddingless">
+    <div class="container single_grid">
+    
+        <div style="margin:25px;">
+
+            <h1 class="title is-3">{{.Title}}</h1>
+
+            <div class="blog-date">{{ dateFormat "Monday, Jan 2, 2006" .Date }}</div>
+
+            <br>
+
+            <div>{{ if .Params.categories }}{{range .Params.categories}}<a class="post-cat" href="{{ "/categories/" | relLangURL }}{{ . | urlize }}">{{ . }}</a> {{end}}{{end}}</div>
+
+            <br>
+            <br>
+            <br>
+
+            <div class="post-content">{{.Content}}</div>
+
+            <br>
+            <br>
+
+            <pre class="tag-container"><strong>Tags:</strong>
+                <div>{{ if .Params.tags }}{{range .Params.tags}}<a class="post-tag" href="{{ "/tags/" | relLangURL }}{{ . | urlize }}">{{ . }}</a> {{end}}{{end}}</div>
+            </pre>
+            
+        </div>
+
+
+    </div>
+</section>
+
+{{ partial "contact-partial" . }}
+
+{{ end }}

@@ -1,0 +1,90 @@
+{{ define "main" }}
+
+<section class="section is-marginless" style="padding-top: 0;">
+    <div class="container">
+        <div class="home-flex-container" style="padding-top: 50px;">
+
+            <div class="home-flex-items flex-1">
+                <div class="hero-text">
+                    <div class="title">Design, Build, Launch, Faster</div>
+                    <div class="subtitle">We build web and software solutions as per your unique business business needs with a deep focus to solve the right business problems that can help make a positive impact on your business.</div>
+                    <div class="buttons">
+                        <a href="{{ .Site.BaseURL }}contact" class="button is-primary">
+                        <strong>Request a Free Email Consultation</strong>
+                        </a>
+                    </div>
+                </div>
+
+                <img src="/svg/hero-art.svg" alt="Hero Art">
+            </div>
+
+            <br>
+
+            <div class="home-flex-items flex-2">
+                <div>
+                    <p class="small-head-text">Our capabilities</p>
+                    <div class="title">Having attractive services <br> has never been easier</div>
+                    <div class="subtitle">With our diversified services building and starting an internet business is a lot easier than you might think.</div>
+                </div>
+                <div class="service-icons">
+                    <div>
+                        <img src="/svg/web-dev.svg" alt="Web Development">
+                        <p class="img-text">Web Development</p>
+                    </div>
+                    <div>
+                        <img src="/svg/ecommerce.svg" alt="Ecommerce Development">
+                        <p class="img-text">Ecommerce Development</p>
+                    </div>
+                    <div>
+                        <img src="/svg/saas.svg" alt="SaaS Development">
+                        <p class="img-text">SaaS Development</p>
+                    </div>
+                    <div>
+                        <img src="/svg/web-scraping.svg" alt="Web Scraping">
+                        <p class="img-text">Web Scraping</p>
+                    </div>
+                    <div>
+                        <img src="/svg/automation.svg" alt="Automation">
+                        <p class="img-text">Automation</p>
+                    </div>
+                    <div>
+                        <img src="/svg/ux.svg" alt="UI/UX Design">
+                        <p class="img-text">UI/UX Design</p>
+                    </div>
+                </div>
+            </div>
+
+            <br>
+
+            <div class="home-flex-items flex-3">
+                <p class="small-head-text">How we work</p>
+                <div class="title">Development Process</div>
+                <div class="subtitle">Reach your business goals with excellent custom made solutions with a transparent process that ensures reliability.</div>
+
+                <img src="/svg/process.svg" alt="Our Development Process">
+            </div>
+<!--
+            <br>
+
+            <div class="home-flex-items flex-4">
+                <p class="small-head-text">Our works</p>
+                <div class="title">In the meantime take a look at <br> some of our recent projects</div>
+                <div class="subtitle">We are a web development agency designing and building web applications <br> to solve critical business problems through modern technology.</div>
+            </div>
+
+            <br>
+
+            <div class="home-flex-items flex-5">
+                <p class="small-head-text">Our Blog</p>
+                <div class="title">Get latest blog updates</div>
+                <div class="subtitle">We are a web development agency designing and building web applications <br> to solve critical business problems through modern technology.</div>
+            </div>
+-->
+
+        </div>
+    </div>
+</section>
+
+{{ partial "contact-partial" . }}
+
+{{ end }}

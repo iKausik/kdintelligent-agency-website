@@ -1,0 +1,99 @@
+{{ define "main" }}
+
+<section class="section is-marginless first-section">
+<div class="container">
+    <div class="tile is-ancestor is-vertical is-hidden-mobile">
+
+        <div class="tile cat-parent">
+            <a href="/categories/saas" class="tile is-child cat-1"><p class="title is-6 cat-nm">SaaS</p></a>
+            <a href="/categories/ecommerce" class="tile is-child cat-2"><p class="title is-6 cat-nm">Ecommerce</p></a>
+            <a href="/categories/fintech" class="tile is-child cat-3"><p class="title is-6 cat-nm">Fintech</p></a>
+        </div>
+        <div class="tile cat-parent">
+            <a href="/categories/proptech" class="tile is-child cat-4"><p class="title is-6 cat-nm">Proptech</p></a>
+            <a href="/categories/automation" class="tile is-child cat-5"><p class="title is-6 cat-nm">Automation</p></a>
+            <a href="/categories/web-scraping" class="tile is-child cat-6"><p class="title is-6 cat-nm">Web Scraping</p></a>
+        </div>
+        
+    </div>
+
+    <br>
+
+    <div class="page-title-container">
+
+        <div class="page-title">All Posts</div>
+    
+        <!-- Dropdown for categories (START)-->
+        <div class="dropdown is-hoverable">
+
+            <div class="dropdown-trigger">
+            <button class="button" aria-haspopup="true" aria-controls="dropdown-menu">
+                <span>I want to learn about</span>
+                <span class="icon is-small">
+                    <img src="/svg/expand_more-black-24dp.svg" alt="drop-down">
+                </span>
+            </button>
+            </div>
+
+            <div class="dropdown-menu" id="dropdown-menu" role="menu">
+            <div class="dropdown-content">
+
+                <a class="dropdown-item" href="/blog">
+                    All Posts
+                </a>
+
+                <!--Looping through all the categories-->
+
+                {{ range $key, $value := .Site.Taxonomies.categories }}
+                <a class="dropdown-item" href="/categories/{{ $key }}">{{ replace $key "-" " "| title }}</a>
+                {{ end }}
+
+            </div>
+            </div>
+
+        </div>
+        <!-- Dropdown for categories (END)-->
+
+    </div>
+</div>
+
+</section>
+
+
+<section class="section is-marginless second-section">
+<div class="container blog-grid">
+    
+    {{.Content}}
+
+    {{ range .Pages }}
+
+        <div class="card blog-card">
+        <a href="{{.Permalink}}">
+            <div class="card-image">
+                <figure class="image is-5by3">
+                  <img src="{{ with .Params.image }}{{ . }}{{ end }}" alt="thumbnail image">
+                </figure>
+            </div>
+
+            <br>
+            
+            <div class="blog-content">                  
+                <div class="title is-4">
+                    {{.Title}}
+                </div>
+                
+                <p class="content">{{.Summary}}</p>
+
+                <div class="blog-date">{{ dateFormat "Monday, Jan 2, 2006" .Date }}</div>  
+            </div>
+        </a>
+        </div>
+    
+    {{ end }}
+
+</div>
+</section>
+
+{{ partial "contact-partial" . }}
+
+{{ end }}

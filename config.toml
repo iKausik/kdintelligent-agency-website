@@ -1,0 +1,6 @@
+baseURL = "/"
+relativeURLs = "true"
+languageCode = "en-us"
+title = "KD & Intelligent"
+summaryLength = 20
+enableEmoji = true

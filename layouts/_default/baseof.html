@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html class="no-js" lang="{{ with .Site.LanguageCode }}{{ . }}{{ else }}en-US{{ end }}">
+
+{{ partial "head" . }}
+
+
+<body class="site-container has-navbar-fixed-top">
+
+    {{ partial "header" . }}   
+
+
+    <main>
+        {{ block "main" . }}
+
+            <p>This text is from baseof.html.</p>
+
+        {{ end }}
+    </main>
+
+    
+    {{ partial "footer" . }}
+
+
+    <script src="{{ .Site.BaseURL }}js/script.js"></script>
+
+</body>
+</html>
