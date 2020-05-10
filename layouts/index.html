@@ -4,18 +4,32 @@
     <div class="container">
         <div class="home-flex-container" style="padding-top: 50px;">
 
-            <div class="home-flex-items flex-1">
-                <div class="hero-text">
+            <div class="home-flex-items flex-1 flex-mobile">
+                <div class="mobile-hero-section is-hidden-tablet">
                     <div class="title">Design, Build, Launch, Faster</div>
+                    <img src="/svg/hero-art.svg" alt="Hero Art">
+                </div>
+
+                <div class="mobile-button-section is-hidden-tablet">
                     <div class="subtitle">We build web and software solutions with a deep focus to solve the right business problems that can help make a positive impact on your business.</div>
                     <div class="buttons">
                         <a href="{{ .Site.BaseURL }}contact" class="button is-primary">
-                        <strong>Start Immediately</strong>
+                        <strong>Start your Free Email Consultation</strong>
                         </a>
                     </div>
                 </div>
 
-                <img src="/svg/hero-art.svg" alt="Hero Art">
+                <div class="hero-text is-hidden-mobile">
+                    <div class="title">Design, Build, Launch, Faster</div>
+                    <div class="subtitle">We build web and software solutions with a deep focus to solve the right business problems that can help make a positive impact on your business.</div>
+                    <div class="buttons">
+                        <a href="{{ .Site.BaseURL }}contact" class="button is-primary">
+                        <strong>Start your Free Email Consultation</strong>
+                        </a>
+                    </div>
+                </div>
+
+                <img src="/svg/hero-art.svg" alt="Hero Art" class="is-hidden-mobile">
             </div>
 
             <br>
