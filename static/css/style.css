@@ -460,6 +460,15 @@ footer .love-icon img {
 }
 
 
+/* Contact Form */
+.contact-page .submit-button {
+    background-color: #0000ff;
+}
+.contact-page .submit-button:hover {
+    background-color: #0000e6;
+}
+
+
 
 
 /* Responsiveness */
