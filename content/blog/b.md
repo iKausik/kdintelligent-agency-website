@@ -5,8 +5,8 @@ image: "/post-assets/cover.jpg"
 description:
 draft: false
 author: "Kausik Das"
+categories: ["project strategy", "saas", "proptech", "automation"]
 tags: ["web development", "web design", "business", "sales funnel"]
-categories: ["project strategy", "saas", "proptech"]
 keywords:
 ---
 ![Example image](/post-assets/cover.jpg)

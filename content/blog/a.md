@@ -3,8 +3,8 @@ title: "This is my first blog post"
 date: 2020-04-11T11:42:17+05:30
 image: "/post-assets/test1.png"
 draft: false
+categories: ["ecommerce", "saas", "fintech", "web scraping"]
 tags: ["wordpress", "woocommerce", "web development"]
-categories: ["ecommerce", "saas", "fintech"]
 myVar: "myVale"
 ---
 ![Example image](/post-assets/test1.png)
