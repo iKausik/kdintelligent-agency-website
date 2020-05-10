@@ -110,7 +110,7 @@ main {
 }
 .logo {
     font-family: 'Space Mono', monospace, 'Open Sans', sans-serif;
-    font-size: 16px;
+    font-size: 18px;
     font-weight: bold;
 }
 
@@ -512,6 +512,10 @@ footer .love-icon img {
 
     .logo {
         font-size: 24px;
+    }
+    .mobile-icons img {
+        width: 19px;
+        height: 19px;
     }
 }
 
