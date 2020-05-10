@@ -1,3 +1,63 @@
+/* Google Fonts Support for All Browsers */
+@font-face {
+    font-family: 'Space Mono';
+    src: url('/fonts/space_mono/SpaceMono-Bold.ttf'), /* IE9 Compat Modes */
+         url('/fonts/space_mono/SpaceMono-Bold.ttf') format('embedded-opentype'), /* IE6-IE8 */
+         url('/fonts/space_mono/SpaceMono-Bold.ttf') format('woff2'), /* Super Modern Browsers */
+         url('/fonts/space_mono/SpaceMono-Bold.ttf') format('woff'), /* Pretty Modern Browsers */
+         url('/fonts/space_mono/SpaceMono-Bold.ttf')  format('truetype'), /* Safari, Android, iOS */
+         url('/fonts/space_mono/SpaceMono-Bold.ttf') format('svg'); /* Legacy iOS */
+}
+@font-face {
+    font-family: 'Open Sans';
+    src: url('/fonts/open_sans/OpenSans-Regular.ttf'),
+         url('/fonts/open_sans/OpenSans-Regular.ttf') format('embedded-opentype'),
+         url('/fonts/open_sans/OpenSans-Regular.ttf') format('woff2'),
+         url('/fonts/open_sans/OpenSans-Regular.ttf') format('woff'),
+         url('/fonts/open_sans/OpenSans-Regular.ttf')  format('truetype'),
+         url('/fonts/open_sans/OpenSans-Regular.ttf') format('svg'),
+
+         url('/fonts/open_sans/OpenSans-Light.ttf'),
+         url('/fonts/open_sans/OpenSans-Light.ttf') format('embedded-opentype'),
+         url('/fonts/open_sans/OpenSans-Light.ttf') format('woff2'),
+         url('/fonts/open_sans/OpenSans-Light.ttf') format('woff'),
+         url('/fonts/open_sans/OpenSans-Light.ttf')  format('truetype'),
+         url('/fonts/open_sans/OpenSans-Light.ttf') format('svg'),
+
+         url('/fonts/open_sans/OpenSans-Bold.ttf'),
+         url('/fonts/open_sans/OpenSans-Bold.ttf') format('embedded-opentype'),
+         url('/fonts/open_sans/OpenSans-Bold.ttf') format('woff2'),
+         url('/fonts/open_sans/OpenSans-Bold.ttf') format('woff'),
+         url('/fonts/open_sans/OpenSans-Bold.ttf')  format('truetype'),
+         url('/fonts/open_sans/OpenSans-Bold.ttf') format('svg');
+}
+@font-face {
+    font-family: 'Roboto';
+    src: url('/roboto/Roboto-Regular.ttf'),
+         url('/fonts/roboto/Roboto-Regular.ttf') format('embedded-opentype'),
+         url('/fonts/roboto/Roboto-Regular.ttf') format('woff2'),
+         url('/fonts/roboto/Roboto-Regular.ttf') format('woff'),
+         url('/fonts/roboto/Roboto-Regular.ttf')  format('truetype'),
+         url('/fonts/roboto/Roboto-Regular.ttf') format('svg'),
+
+         url('/fonts/roboto/Roboto-Light.ttf'),
+         url('/fonts/roboto/Roboto-Light.ttf') format('embedded-opentype'),
+         url('/fonts/roboto/Roboto-Light.ttf') format('woff2'),
+         url('/fonts/roboto/Roboto-Light.ttf') format('woff'),
+         url('/fonts/roboto/Roboto-Light.ttf')  format('truetype'),
+         url('/fonts/roboto/Roboto-Light.ttf') format('svg'),
+
+         url('/fonts/roboto/Roboto-Bold.ttf'),
+         url('/fonts/roboto/Roboto-Bold.ttf') format('embedded-opentype'),
+         url('/fonts/roboto/Roboto-Bold.ttf') format('woff2'),
+         url('/fonts/roboto/Roboto-Bold.ttf') format('woff'),
+         url('/fonts/roboto/Roboto-Bold.ttf')  format('truetype'),
+         url('/fonts/roboto/Roboto-Bold.ttf') format('svg');
+}
+
+
+
+
 html, body {
     font-family: 'Open Sans', sans-serif;
 }
@@ -50,7 +110,7 @@ main {
 }
 .logo {
     font-family: 'Space Mono', monospace, 'Open Sans', sans-serif;
-    font-size: 20px;
+    font-size: 18px;
     font-weight: bold;
 }
 
@@ -291,16 +351,16 @@ footer .love-icon img {
     background-color: #0000e6;
 }
 .home-flex-container .title {
-    font-size: 30px;
+    font-size: 29px;
     line-height: 37px;
     padding-bottom: 5px;
 }
 .home-flex-container .subtitle {
     width: 100%;
-    font-size: 16px;
+    font-size: 15px;
 }
 .home-flex-container .small-head-text {
-    font-size: 15px;
+    font-size: 14px;
 }
 .home-flex-items {
     margin-bottom: 60px;
@@ -308,7 +368,7 @@ footer .love-icon img {
 
 
 .flex-1 .title {
-    font-size: 30px;
+    font-size: 29px;
     line-height: 37px;
 }
 .flex-1 .subtitle {
