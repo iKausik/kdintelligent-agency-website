@@ -88,8 +88,8 @@ main {
     height: 21px;
 }
 .mobile-icons img {
-    width: 19px;
-    height: 19px;
+    width: 17px;
+    height: 17px;
 }
 .navbar-item .is-primary {
     background-color: #0000ff;
@@ -110,7 +110,7 @@ main {
 }
 .logo {
     font-family: 'Space Mono', monospace, 'Open Sans', sans-serif;
-    font-size: 15px;
+    font-size: 16px;
     font-weight: bold;
 }
 
