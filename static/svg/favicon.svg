@@ -3,7 +3,13 @@
 <rect width="64" height="64" rx="14" fill="#C4C4C4"/>
 </mask>
 <g mask="url(#mask0)">
-<rect width="64" height="64" rx="14" fill="#0000FF"/>
-<path d="M28.736 68H15.008V-4.8H28.736V25.048H31.752L50.992 -4.8H66.488V-4.176L44.024 30.664V32.536L67.736 67.376V68H51.616L31.752 38.152H28.736V68Z" fill="white"/>
+<rect width="64" height="64" rx="14" fill="url(#paint0_linear)"/>
+<path d="M30.412 68H16.684V-4.8H30.412V25.048H33.428L52.668 -4.8H68.164V-4.176L45.7 30.664V32.536L69.412 67.376V68H53.292L33.428 38.152H30.412V68Z" fill="white"/>
 </g>
+<defs>
+<linearGradient id="paint0_linear" x1="5.5" y1="64" x2="67.5" y2="5" gradientUnits="userSpaceOnUse">
+<stop stop-color="#0000FF"/>
+<stop offset="1" stop-color="#2C2CB8"/>
+</linearGradient>
+</defs>
 </svg>
