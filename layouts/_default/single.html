@@ -11,7 +11,7 @@
 
             <br>
 
-            <div>{{ if .Params.categories }}{{range .Params.categories}}<a class="post-cat" href="{{ "/categories/" | relLangURL }}{{ . | urlize }}">{{ . }}</a> {{end}}{{end}}</div>
+            <div>{{ if .Params.categories }}{{range .Params.categories}}<a class="post-cat" href="{{ "/blog/" | relLangURL }}{{ . | urlize }}">{{ . }}</a> {{end}}{{end}}</div>
 
             <br>
             <br>
@@ -23,7 +23,7 @@
             <br>
 
             <pre class="tag-container"><strong>Tags:</strong>
-                <div>{{ if .Params.tags }}{{range .Params.tags}}<a class="post-tag" href="{{ "/tags/" | relLangURL }}{{ . | urlize }}">{{ . }}</a> {{end}}{{end}}</div>
+                <div>{{ if .Params.tags }}{{range .Params.tags}}<a class="post-tag" href="{{ "/blog/" | relLangURL }}{{ . | urlize }}">{{ . }}</a> {{end}}{{end}}</div>
             </pre>
             
         </div>

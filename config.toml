@@ -4,3 +4,6 @@ languageCode = "en-us"
 title = "KD & Intelligent"
 summaryLength = 20
 enableEmoji = true
+[permalinks]
+categories = "/blog/:title/"
+tags = "/blog/:title/"

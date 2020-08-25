@@ -2,6 +2,8 @@
 
 <section class="section is-marginless first-section">
 <div class="container">
+
+    <!--
     <div class="tile is-ancestor is-vertical is-hidden-mobile">
 
         <div class="tile cat-parent">
@@ -16,6 +18,7 @@
         </div>
         
     </div>
+    -->
 
     <br>
 
@@ -45,7 +48,7 @@
                 <!--Looping through all the categories-->
 
                 {{ range $key, $value := .Site.Taxonomies.categories }}
-                <a class="dropdown-item" href="/categories/{{ $key }}">{{ replace $key "-" " "| title }}</a>
+                <a class="dropdown-item" href="/blog/{{ $key }}">{{ replace $key "-" " "| title }}</a>
                 {{ end }}
 
             </div>
