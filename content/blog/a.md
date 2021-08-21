@@ -1,7 +1,7 @@
 ---
 title: "This is my first blog post"
 date: 2020-04-11T11:42:17+05:30
-image: "/post-assets/test1.png"
+image: "/post-assets/test6.png"
 draft: false
 categories: ["ecommerce", "saas", "fintech", "web scraping"]
 tags: ["wordpress", "woocommerce", "web development"]
