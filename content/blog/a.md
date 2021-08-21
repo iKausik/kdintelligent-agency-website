@@ -7,7 +7,7 @@ categories: ["ecommerce", "saas", "fintech", "web scraping"]
 tags: ["wordpress", "woocommerce", "web development"]
 myVar: "myVale"
 ---
-![Example image](/post-assets/test1.png)
+![Example image](/post-assets/test6.png)
 
 &nbsp; 
 
