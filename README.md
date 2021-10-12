@@ -4,7 +4,7 @@ An Agency Landing Page and Website, built with `Golang` and `Hugo`.
 
 ## Project Screen Shot(s)
 
-![Product Page](https://raw.githubusercontent.com/iKausik/live-crypto-watch/master/src/assets/projects/project-c.png)
+![Home Page](https://raw.githubusercontent.com/iKausik/ikausik.github.io/master/src/assets/projects/project-c.png)
 
 ## Reflection
 
